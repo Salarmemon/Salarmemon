@@ -1,0 +1,121 @@
+body {
+  text-align:center;
+}
+h1 {
+  text-align:center;
+  font-size:300%;
+  font-weight:bold;
+  color:#7979df;
+}
+#game-status {
+background-color:#98df91;
+width:100%;
+height:5vh;
+text-align:left;
+}
+#score {
+font-size:300%;
+text-align:center;
+margin-left:40%;
+}
+#game-screen {
+width:950px;
+height:1000px;
+background: url("https://www.dropbox.com/scl/fi/5dr63pe7aws11tmxklh03/file-Tc19R6q7nHOfV7G37Mdsap8K.jpg?rlkey=bp2gvnod81ifcp3iw50zbpfmz&raw=1") no-repeat center center;
+background-size: cover;border:1px solid #e2e2f9;
+box-shadow: 7px 7px 5px #929256;
+position:relative;
+}
+#play-button-container {
+text-align:center;
+}
+#play {
+width:25%;
+height:3vh;
+background-color:#fefe99;
+margin-top:2%;
+font-size:200%;
+}
+#control-buttons {
+text-align:center;
+width:100%;
+height:30vh;
+}
+#left-btn, #right-btn, #up-btn, #down-btn {
+width:15%;
+height:5vh;
+font-size:270%;
+background-color:#282858;
+color:#e9e9f9;
+margin:5%;
+position:relative;
+border-radius:30%;
+}
+#left-btn {
+  top:10%;
+left:10%;
+disabled: true;
+}
+#right-btn {
+left:15%;
+top:10%;
+disabled: true;
+}
+#up-btn {
+top:-5%;
+left:-25%;
+disabled:true;
+}
+#down-btn {
+top:-5%;
+disabled:true;
+}
+button {
+  cursor:pointer;
+}
+button:hover {
+  transform: scale(1.2);
+}
+#player-box {
+width:100px;
+height:100px;
+background: url("https://www.dropbox.com/scl/fi/tt7iymt4oqluy8ww3wb8o/file-qOR4k4Wake6TedxyWgZJNbax__1_-removebg-preview.png?rlkey=vizhef24vq7zz4jakw9oelvgt&raw=1")no-repeat center center;
+background-size:cover;
+position:absolute;
+top:500px;
+left:425px;
+display:none;
+z-index:1;
+
+}
+#score-point {
+ width:60px;
+ height:60px; 
+ background: url("https://www.dropbox.com/scl/fi/171noabxwuaymbybdv3t6/file-xjV1dUEUNaJj2g8PYhWTkEWq-removebg-preview.png?rlkey=91rh0ziz8064et9o3hzidn25c&raw=1")no-repeat center center;
+ background-size:cover;
+ position:absolute;
+ display:none;
+ border-radius:50%;
+}
+#level-status {
+color:#e55555;
+font-size:300%;
+margin-left:5%;
+}
+#special-score-point {
+width:100px;
+height:100px;
+border-radius:50%;
+background: url("https://www.dropbox.com/scl/fi/m79lla1r0q2lnk8oxzg6c/file-hGOjxTHOztQIXR1Sf7q27LND-removebg-preview.png?rlkey=wvvqvs85nfifjgm0zz2ldwec3&st=xtlwy3xb&raw=1") no-repeat center center;
+background-size:cover;
+position:absolute;
+display: none;
+}
+#c-fish {
+width:200px;
+height:200px;
+background: url("https://www.dropbox.com/scl/fi/4z28dxxmwenx5rl13g6p1/file-se27xCzhL8ZxzHoUcbevSMli-removebg-preview.png?rlkey=kpn72ag8okcx0568i3gg22e9p&raw=1") no-repeat center center;
+background-size:cover;
+position:absolute;
+
+}
